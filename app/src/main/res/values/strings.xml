@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">Budget</string>
+    <string name="in">In</string>
+    <string name="out">Out</string>
+    <string name="stats">Stats</string>
+    <string name="options">Options</string>
+    <string name="goal">Goal:</string>
+    <string name="month">Month</string>
+    <string name="year">Year</string>
+    <string name="description">Description</string>
+    <string name="add">Add</string>
+    <string name="amount">Amount</string>
+    <string-array name="month_array">
+        <item>DECEMBER</item>
+        <item>JANUARY</item>
+        <item>FEBRUARY</item>
+        <item>MARCH</item>
+        <item>APRIL</item>
+        <item>MAY</item>
+        <item>JUNE</item>
+        <item>JULY</item>
+        <item>AUGUST</item>
+        <item>SEPTEMBER</item>
+        <item>OCTOBER</item>
+        <item>NOVEMBER</item>
+    </string-array>
+    <string-array name="category_array">
+        <item>Outcome</item>
+        <item>Income</item>
+    </string-array>
+    <string-array name="year_array">
+        <item>2020</item>
+        <item>2021</item>
+        <item>2022</item>
+    </string-array>
+    <string name="test_transaction">Test Transaction</string>
+    <string name="text_view">TextView</string>
+    <string name="income">INCOME</string>
+    <string name="outcome">OUTCOME</string>
+    <string name="goal_change_string">Please enter your new goal:</string>
+    <string name="new_goal">New Goal</string>
+    <string name="change">Change</string>
+    <string name="transaction_delete">Are you sure you\'d like to delete this transaction?</string>
+    <string name="transaction">Transaction</string>
+    <string name="confirm">Confirm</string>
+    <string name="cancel">Cancel</string>
+    <string name="statistics">STATISTICS</string>
+    <string name="summary">Summary</string>
+    <string name="close_button">Close Button</string>
+    <string name="statistics_page">Statistics Page</string>
+    <string name="annual">Annual</string>
+    <string name="monthly">Monthly</string>
+</resources>

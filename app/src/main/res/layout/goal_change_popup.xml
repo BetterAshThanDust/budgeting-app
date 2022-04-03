@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    android:background="?android:colorBackground">
+
+    <TextView
+        android:id="@+id/txt_goal_change"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/goal_change_string"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="5dp"
+        style="@style/TextAppearance.AppCompat.Title"/>
+
+    <EditText
+        android:id="@+id/et_goal_change"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt_goal_change"
+        android:layout_centerHorizontal="true"
+        android:inputType="numberDecimal"
+        android:autofillHints="New Goal"
+        android:hint="@string/new_goal"/>
+
+    <Button
+        android:id="@+id/btn_goal_change"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/et_goal_change"
+        android:layout_centerHorizontal="true"
+        android:text="@string/change"/>
+
+</RelativeLayout>
